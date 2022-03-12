@@ -17,8 +17,6 @@ class Solution {
             n1 = n1.next;
         }
         str.append(n1.val);
-        System.out.println(str.toString());
-        System.out.println(str.reverse().toString());
         if(str.toString().equals(str.reverse().toString())){
             return true;
         }
