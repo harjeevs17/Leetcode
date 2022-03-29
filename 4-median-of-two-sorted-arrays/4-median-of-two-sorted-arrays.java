@@ -22,12 +22,11 @@ class Solution {
         for(int i=0;i<comb.length;i++){
             System.out.println(comb[i]);
         }
-        if(comb.length%2!=0){
-            return (comb[(comb.length/2)]);
+        int di = comb.length;
+        if(di%2!=0){
+            return (comb[(di/2)]);
         }else{
-            int temp = comb.length/2;
-            System.out.println(comb[temp-1]);
-            System.out.println(comb[temp]);
+            int temp = di/2;
             return ((((double)comb[temp-1]+comb[temp])/2));
         }
         
