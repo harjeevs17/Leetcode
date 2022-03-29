@@ -23,10 +23,11 @@ class Solution {
             System.out.println(comb[i]);
         }
         int di = comb.length;
+        int mid = di/2;
         if(di%2!=0){
-            return (comb[(di/2)]);
+            return (comb[(mid)]);
         }else{
-            int temp = di/2;
+            int temp = mid;
             return ((((double)comb[temp-1]+comb[temp])/2));
         }
         
