@@ -6,7 +6,6 @@ class Solution {
         StringBuilder res = new StringBuilder();
         while(num>0){
             num--;
-            System.out.println('A'+(char)num%26);
             res.append((char)('A' + num % 26));
             num= num/26;
         }
