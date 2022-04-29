@@ -14,7 +14,6 @@ class Solution {
         }
         Set<String> set = new HashSet<String>(); 
         for(int i=0;i<res.length;i++){
-            System.out.println(res[i]);
             if(!set.contains(res[i])){
                 set.add(res[i]);
             }
